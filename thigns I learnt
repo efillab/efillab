@@ -13,4 +13,8 @@
   6. \theta
   7. \theta_n
   8. \mu
-  
+3. 좋은 추정량의 4가지 조건(2024.06.27)
+  1. unbiasedness
+  2. efficiency
+  3. consistency
+  4. sufficiency <- 이건 안 배움
