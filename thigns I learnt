@@ -20,3 +20,15 @@
   4. sufficiency <- 이건 안 배움
 3. java Interface abstract method
   1. 인터페이스를 클래스에 삽입해도, 상위 클래스로부터 인터페이스의 추상 함수와 같은 이름, 같은 반환값, 그리고 같은 인수를 갖는 함수를 상속 받으면, 인터페이스의 추상 함수를 구현할 필요가 없음
+4. java Math.signum(double a)
+  1. a = 양수 -> return 1.0
+  2. a = 음수 -> return -1.0
+  3. a = 0 -> return 0.0
+5. java java.util.List.sort(Comparator c)
+  1. Interface List<T>
+  2. sort()메소드는 Comparator instance 메소드를 이용해 정렬을 함
+  3. Comparator는 인터페이스이고, Comparator를 implements한 class의 instance를 인수로 넣어줘야 함
+  4. Comparator에 따라 정렬 로직이 달라지기 때문에 Strategy Pattern임
+  5. Comparator.compare()을 implement한 class에서 구현해야 함
+  6. comparator.compare()의 반환값을 -1, 0, 1에서 1, 0, -1로 하면 사전순의 내림차순이 됨
+6. Java Interface의 Instances method랑 abstract method, static method가 뭔지 모르겠음
