@@ -32,3 +32,4 @@
   5. Comparator.compare()을 implement한 class에서 구현해야 함
   6. comparator.compare()의 반환값을 -1, 0, 1에서 1, 0, -1로 하면 사전순의 내림차순이 됨
 6. Java Interface의 Instances method랑 abstract method, static method가 뭔지 모르겠음
+7. "<>" = 다이아몬드 연산자
